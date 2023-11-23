@@ -287,4 +287,24 @@ footer a:hover {
     .yellow {
         margin-left: 5%;
     }
+
+    /* ----------- atchment workaround------------- */
+
+    .frame {
+        height: 100vh;
+        background-image: url("../img/cleo-topper.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: scroll;
+        z-index: -100;
+    }
+
+    .bigpic {
+        background-image: none;
+    }
+
+    .smallpic img {
+        height: 50%;
+    }
 }
