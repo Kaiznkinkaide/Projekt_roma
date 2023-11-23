@@ -249,3 +249,17 @@ footer a {
 footer a:hover {
     box-shadow: white 5px 5px;
 }
+
+/* ----- @media------TABLET------- */
+
+@media only screen and (max-width: 768px) {
+
+    .titel {
+        color: #FFF;
+        font-family: "Inter";
+        font-size: 3.5rem;
+        font-weight: 700;
+        margin: 10vh 80vw 0 10vw;
+
+    }
+}
