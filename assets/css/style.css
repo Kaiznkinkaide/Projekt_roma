@@ -1,0 +1,232 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Santio";
+    src: url("../fonts/SANTIO/TTF/Santio\ light.ttf");
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter/Inter-VariableFont_slnt,wght.ttf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto/Roboto-Light.ttf");
+}
+
+@font-face {
+    font-family: "Mr Dafoe";
+    src: url("../fonts/Mr_Dafoe/MrDafoe-Regular.ttf");
+}
+
+.bigpic {
+    background-image: url("../img/cleo-topper.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+
+}
+
+nav {
+    margin-right: 5vw;
+    gap: 1.5vw;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+
+
+}
+
+nav a {
+    color: #FFF;
+    text-align: right;
+    font-family: "Roboto";
+    font-size: 1rem;
+    font-weight: 400;
+    border-bottom: 0.556px solid #E7BC0E;
+    text-decoration: none;
+    padding: 5px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+
+}
+
+.navicon {
+    width: 20px;
+    height: 20px;
+}
+
+.titel {
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 4.125rem;
+    font-weight: 700;
+    margin: 10vh 80vw 0 10vw;
+
+}
+
+.scroll {
+    color: #E7BC0E;
+    font-family: "Mr Dafoe";
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: -2px;
+    margin: 10vh 0 0 10vw;
+}
+
+.text {
+    color: #6BC1A3;
+    font-family: "Santio";
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 139.773%;
+    margin: 30vh 50vw 30vh 20vw;
+}
+
+.text span {
+    color: white;
+}
+
+.yellow,
+.pink,
+.green {
+    margin: 15vh auto;
+    width: 25vw;
+}
+
+.yellow h1 {
+    color: #E7BC0E;
+    font-family: "Santio";
+    font-size: 8.688rem;
+    font-weight: 700;
+}
+
+.pink h1 {
+    color: #CB91B6;
+    font-family: "Santio";
+    font-size: 5.975rem;
+    font-weight: 700;
+}
+
+.green h1 {
+    color: #6BC1A3;
+    font-family: "Santio";
+    font-size: 6.938rem;
+    font-weight: 700;
+}
+
+
+.yellowtext,
+.pinktext,
+.greentext {
+    text-transform: uppercase;
+    font-family: "Santio";
+    font-size: 3.138rem;
+    font-weight: 700;
+}
+
+.yellowtext {
+    color: #E7BC0E;
+}
+
+.pinktext {
+    color: #CB91B6;
+}
+
+.greentext {
+    color: #6BC1A3;
+}
+
+
+.yellowtext span,
+.pinktext span,
+.greentext span {
+    color: white;
+    font-family: "Santio";
+    font-size: 2.638rem;
+    font-weight: 700;
+    background: rgba(51, 51, 51, 0.4);
+}
+
+.bluetext {
+    margin: 0 auto 20vh;
+    width: 35vw;
+    color: #7EB8E1;
+    font-family: "Santio";
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 139.773%;
+}
+
+.bluetext span {
+    color: white;
+    background: rgba(51, 51, 51, 0.4);
+}
+
+.smallpic img {
+    width: 100vw;
+    height: max-content;
+    background-image: url("../img/see.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: -2vh;
+}
+
+footer {
+    background: black;
+
+}
+
+.footertext {
+    text-transform: uppercase;
+    padding: 15vh 60vw 3vh 20vw;
+    color: #FFF;
+    font-family: "Inter";
+    font-size: 2.938rem;
+    font-weight: 700;
+}
+
+footer a {
+    margin: 0 0 0 20vw;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid white;
+    background-color: black;
+    color: #FFF;
+    font-family: "Roboto";
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.inspired {
+    margin-top: 15vh;
+    color: #FFF;
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.inspired span {
+    color: #6BC1A3;
+    font-family: "Inter";
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+footer a:hover {
+    box-shadow: white 5px 5px;
+}
