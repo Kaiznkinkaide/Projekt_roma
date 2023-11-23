@@ -24,6 +24,11 @@
     src: url("../fonts/Mr_Dafoe/MrDafoe-Regular.ttf");
 }
 
+
+body {
+    width: 100vw;
+}
+
 .bigpic {
     background-image: url("../img/cleo-topper.jpg");
     background-size: cover;
@@ -32,7 +37,6 @@
     background-attachment: fixed;
     display: flex;
     flex-direction: column;
-
 }
 
 nav {
@@ -53,12 +57,15 @@ nav a {
     font-weight: 400;
     border-bottom: 0.556px solid #E7BC0E;
     text-decoration: none;
-    padding: 5px;
+    padding: 2px;
 }
+
+
 
 img {
     width: 100px;
     height: 100px;
+    margin-bottom: 3vh;
 
 }
 
@@ -77,12 +84,24 @@ img {
 }
 
 .scroll {
+    display: flex;
     color: #E7BC0E;
     font-family: "Mr Dafoe";
     font-size: 2rem;
     font-weight: 400;
     letter-spacing: -2px;
     margin: 10vh 0 0 10vw;
+}
+
+/* ----wäre auch .scroll::after gegangen. aber bereits so gelöst---- */
+
+.scroll span {
+    margin: 2.75vh 0 0 3vw;
+    color: #E7BC0E;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -2px;
 }
 
 .text {
@@ -101,8 +120,9 @@ img {
 .yellow,
 .pink,
 .green {
+
     margin: 15vh auto;
-    width: 25vw;
+    width: 25vwvw;
 }
 
 .yellow h1 {
@@ -130,6 +150,7 @@ img {
 .yellowtext,
 .pinktext,
 .greentext {
+    width: 40vw;
     text-transform: uppercase;
     font-family: "Santio";
     font-size: 3.138rem;
@@ -182,6 +203,7 @@ img {
     background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: -2vh;
+
 }
 
 footer {
